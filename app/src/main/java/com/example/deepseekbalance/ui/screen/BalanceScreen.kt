@@ -70,9 +70,9 @@ fun BalanceScreen(
         ActivityResultContracts.RequestPermission()
     ) { isGranted ->
         if (isGranted) {
-            viewModel.setNotificationEnabled(true)
+            viewModel.updateNotificationState(true)
         } else {
-            viewModel.setNotificationEnabled(false)
+            viewModel.updateNotificationState(false)
             scope.launch {
                 snackbarHostState.showSnackbar("需要通知权限才能在通知栏显示余额")
             }
@@ -139,12 +139,12 @@ fun BalanceScreen(
                             Manifest.permission.POST_NOTIFICATIONS
                         ) == android.content.pm.PackageManager.PERMISSION_GRANTED
                         if (granted) {
-                            viewModel.setNotificationEnabled(true)
+                            viewModel.updateNotificationState(true)
                         } else {
                             notificationPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
                         }
                     } else {
-                        viewModel.setNotificationEnabled(enabled)
+                        viewModel.updateNotificationState(enabled)
                     }
                 }
             )

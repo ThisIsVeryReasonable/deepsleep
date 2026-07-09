@@ -140,7 +140,7 @@ class BalanceViewModel(application: Application) : AndroidViewModel(application)
     /**
      * 切换通知栏显示开关。
      */
-    fun setNotificationEnabled(enabled: Boolean) {
+    fun updateNotificationState(enabled: Boolean) {
         notificationEnabled = enabled
         settings.notificationEnabled = enabled
         val app = getApplication<Application>()
