@@ -4,15 +4,15 @@ import androidx.compose.ui.graphics.Color
 
 /**
  * DeepSeek 余额应用设计 token。
- * 以深青色为主色，传递稳定、可信、专业感。
+ * 以清新友好的蓝色为主色，契合鲸鱼娘图标风格。
  */
 
-// 主色梯度（Deep Teal）
-val Primary50 = Color(0xFFE6F7F6)
-val Primary100 = Color(0xFFB3E8E4)
-val Primary300 = Color(0xFF4DB6AC)
-val Primary500 = Color(0xFF0D7377)
-val Primary700 = Color(0xFF095B5E)
+// 主色梯度（Friendly Blue）
+val Primary50 = Color(0xFFE8F1FE)
+val Primary100 = Color(0xFFBED9FD)
+val Primary300 = Color(0xFF60A5FA)
+val Primary500 = Color(0xFF2563EB)
+val Primary700 = Color(0xFF1D4ED8)
 
 // 强调色（琥珀金，用于余额/正向信息）
 val Accent500 = Color(0xFFF59E0B)
