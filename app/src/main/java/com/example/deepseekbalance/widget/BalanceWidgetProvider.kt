@@ -127,9 +127,8 @@ object BalanceWidgetUpdater {
         val cny = response.balanceInfos.find { it.currency == "CNY" }
         val usd = response.balanceInfos.find { it.currency == "USD" }
         return when {
-            cny != null && usd != null -> "${cny.totalBalance} / ${usd.totalBalance}"
-            cny != null -> "${cny.totalBalance} CNY"
-            usd != null -> "${usd.totalBalance} USD"
+            cny != null -> "¥${cny.totalBalance}"
+            usd != null -> "$${usd.totalBalance}"
             else -> "--"
         }
     }
