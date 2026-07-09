@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DeepSeek 余额</string>
+    <string name="balance_title">账户余额</string>
+    <string name="refresh">刷新</string>
+    <string name="add_key">添加 Key</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="key_name">Key 名称</string>
+    <string name="api_key">API Key</string>
+    <string name="key_management">Key 管理</string>
+    <string name="settings">设置</string>
+    <string name="enable_notification">通知栏实时显示</string>
+    <string name="refresh_interval">自动刷新间隔</string>
+    <string name="last_updated">上次更新：%1$s</string>
+    <string name="not_updated">未更新</string>
+    <string name="error_network">网络异常，请检查连接</string>
+    <string name="error_auth">API key 无效，请检查或切换</string>
+    <string name="error_unknown">请求失败，请重试</string>
+    <string name="widget_refresh">小部件刷新</string>
+    <string name="channel_name">余额监控</string>
+    <string name="channel_description">在通知栏显示 DeepSeek 余额</string>
+    <string name="notification_title">DeepSeek 余额</string>
+    <string name="total_balance">总余额</string>
+    <string name="granted_balance">赠送余额</string>
+    <string name="topped_up_balance">充值余额</string>
+</resources>
