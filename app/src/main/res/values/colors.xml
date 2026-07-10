@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 主色 -->
-    <color name="primary_50">#FFE8F1FE</color>
-    <color name="primary_100">#FFBED9FD</color>
-    <color name="primary_300">#FF60A5FA</color>
-    <color name="primary_500">#FF2563EB</color>
-    <color name="primary_700">#FF1D4ED8</color>
+    <!-- 主色：DeepSleep logo 蓝 -->
+    <color name="primary_50">#FFF1F3FE</color>
+    <color name="primary_100">#FFD8DEFD</color>
+    <color name="primary_300">#FF94A5FA</color>
+    <color name="primary_500">#FF566FF7</color>
+    <color name="primary_700">#FF3E52C4</color>
 
-    <!-- 强调色 -->
-    <color name="accent_500">#FFF59E0B</color>
+    <!-- 强调色：浅蓝，与主色同系 -->
+    <color name="accent_500">#FF7B8FF9</color>
+    <color name="accent_700">#FF5969C6</color>
 
     <!-- 语义色 -->
-    <color name="success_500">#FF22C55E</color>
+    <color name="success_500">#FF5FAE98</color>
     <color name="warning_500">#FFF59E0B</color>
     <color name="error_500">#FFEF4444</color>
 
@@ -24,9 +25,9 @@
     <color name="gray_700">#FF334155</color>
     <color name="gray_900">#FF0F172A</color>
 
-    <!-- 小部件专用 -->
-    <color name="widget_background">#FF2563EB</color>
-    <color name="widget_text">#FFFFFFFF</color>
-    <color name="widget_text_secondary">#CCFFFFFF</color>
-    <color name="widget_accent">#FFF59E0B</color>
+    <!-- 小部件专用（白色背景） -->
+    <color name="widget_background">#FFFFFFFF</color>
+    <color name="widget_text">#FF0F172A</color>
+    <color name="widget_text_secondary">#FF64748B</color>
+    <color name="widget_accent">#FF566FF7</color>
 </resources>

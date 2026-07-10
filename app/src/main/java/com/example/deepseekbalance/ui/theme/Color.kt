@@ -3,26 +3,26 @@ package com.example.deepseekbalance.ui.theme
 import androidx.compose.ui.graphics.Color
 
 /**
- * DeepSeek 余额应用设计 token。
- * 以清新友好的蓝色为主色，契合鲸鱼娘图标风格。
+ * DeepSleep 设计 token。
+ * 以 logo 蓝 (#566FF7) 为主色，整体保持蓝白扁平风格。
  */
 
-// 主色梯度（Friendly Blue）
-val Primary50 = Color(0xFFE8F1FE)
-val Primary100 = Color(0xFFBED9FD)
-val Primary300 = Color(0xFF60A5FA)
-val Primary500 = Color(0xFF2563EB)
-val Primary700 = Color(0xFF1D4ED8)
+// 主色梯度（DeepSleep Blue）
+val Primary50 = Color(0xFFF1F3FE)
+val Primary100 = Color(0xFFD8DEFD)
+val Primary300 = Color(0xFF94A5FA)
+val Primary500 = Color(0xFF566FF7)
+val Primary700 = Color(0xFF3E52C4)
 
-// 强调色（琥珀金，用于余额/正向信息）
-val Accent500 = Color(0xFFF59E0B)
-val Accent700 = Color(0xFFD97706)
+// 强调色（浅蓝）
+val Accent500 = Color(0xFF7B8FF9)
+val Accent700 = Color(0xFF5969C6)
 
 // 语义色
-val Success500 = Color(0xFF22C55E)
+val Success500 = Color(0xFF5FAE98)
 val Warning500 = Color(0xFFF59E0B)
 val Error500 = Color(0xFFEF4444)
-val Info500 = Color(0xFF3B82F6)
+val Info500 = Color(0xFF566FF7)
 
 // 中性灰梯度
 val Gray50 = Color(0xFFF8FAFC)

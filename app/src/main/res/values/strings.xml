@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DeepSeek 余额</string>
+    <string name="app_name">DeepSleep</string>
     <string name="balance_title">账户余额</string>
     <string name="refresh">刷新</string>
     <string name="add_key">添加 Key</string>
@@ -19,13 +19,13 @@
     <string name="error_unknown">请求失败，请重试</string>
     <string name="widget_refresh">小部件刷新</string>
     <string name="channel_name">余额监控</string>
-    <string name="channel_description">在通知栏显示 DeepSeek 余额</string>
-    <string name="notification_title">DeepSeek 余额</string>
+    <string name="channel_description">在通知栏显示账户余额</string>
+    <string name="notification_title">DeepSleep</string>
     <string name="total_balance">总余额</string>
     <string name="granted_balance">赠送余额</string>
     <string name="topped_up_balance">充值余额</string>
     <string name="no_keys_title">还没有 API key</string>
-    <string name="no_keys_subtitle">添加一个 DeepSeek key，即可查看余额</string>
+    <string name="no_keys_subtitle">添加一个 API key，即可查看余额</string>
     <string name="add_first_key">添加第一个 Key</string>
     <string name="current_key">当前 Key</string>
     <string name="balance_summary">余额总览</string>
